@@ -11674,14 +11674,14 @@
     {
       "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardsPresenter.swift",
       "kind": "Array",
-      "offset": 2264,
+      "offset": 2300,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardsPresenter.swift",
       "kind": "Array",
-      "offset": 2316,
+      "offset": 2352,
       "length": 2,
       "value": "[]"
     },
@@ -15125,14 +15125,21 @@
     {
       "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Presentation\/PhoneNumberVC\/PhoneNumberVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 741,
+      "offset": 851,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Presentation\/PhoneNumberVC\/PhoneNumberVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Presentation\/PhoneNumberVC\/PhoneNumberVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 1372,
+      "offset": 1727,
       "length": 4,
       "value": "true"
     },
@@ -18366,14 +18373,14 @@
     {
       "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Extensions\/UserDefaults+Extension.swift",
       "kind": "Array",
-      "offset": 1884,
+      "offset": 1920,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/kirillfarafonov\/CORE\/paySDK-ios\/SPaySdk\/Extensions\/UserDefaults+Extension.swift",
       "kind": "Array",
-      "offset": 2054,
+      "offset": 2090,
       "length": 2,
       "value": "[]"
     },
