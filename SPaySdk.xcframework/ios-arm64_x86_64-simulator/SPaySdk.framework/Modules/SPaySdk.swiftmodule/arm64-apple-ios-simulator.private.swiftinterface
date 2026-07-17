@@ -1,9 +1,8 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.2.3 effective-5.10 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
-// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SPaySdk
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+// swift-compiler-version: Apple Swift version 6.3.3 effective-5.10 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name SPaySdk
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.3.3
 import AVFAudio
-import ClickstreamAnalytics
 import Combine
 import CommonCrypto
 import CoreLocation
@@ -26,9 +25,7 @@ import _SwiftConcurrencyShims
 public typealias Action = () -> Swift.Void
 public enum NetworkState : Swift.String, Swift.CaseIterable, Swift.Codable {
   case Mocker, Prom, Ift, Psi, Local
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
-  #endif
   public typealias AllCases = [SPaySdk.NetworkState]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [SPaySdk.NetworkState] {
@@ -59,9 +56,7 @@ public enum SBAxis {
 @objc @IBDesignable @_Concurrency.MainActor @preconcurrency final public class SBPButton : UIKit.UIView {
   @objc @_Concurrency.MainActor @preconcurrency final public var tapAction: SPaySdk.Action?
   @_Concurrency.MainActor @preconcurrency @objc dynamic public init()
-  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
-  #endif
   @objc deinit
 }
 @objc public enum SPayState : Swift.Int {
@@ -69,9 +64,7 @@ public enum SBAxis {
   case waiting
   case cancel
   case error
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -94,9 +87,7 @@ extension SPaySdk.SBShimmeringView {
   @objc deinit
 }
 @objc(SBankInvoiceIdPaymentRequest) final public class SBankInvoicePaymentRequest : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(merchantLogin: Swift.String, bankInvoiceId: Swift.String, orderNumber: Swift.String, language: Swift.String? = nil, redirectUri: Swift.String, apiKey: Swift.String)
-  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers @objc public class SPError : ObjectiveC.NSObject {
@@ -111,69 +102,41 @@ extension SPaySdk.SPay {
   case prod = 0
   case sandboxWithoutBankApp
   case sandboxRealBankApp
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 @_inheritsConvenienceInitializers @objc final public class SPay : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public static func setup(bnplPlan: Swift.Bool = true, spasiboBonuses: Swift.Bool = true, resultViewNeeded: Swift.Bool = true, helpers: Swift.Bool = true, needLogs: Swift.Bool = true, helperConfig: SPaySdk.SBHelperConfig = SBHelperConfig(), environment: SPaySdk.SEnvironment = .prod, completion: ((SPaySdk.SPError?) -> Swift.Void)? = nil)
-  #endif
   @objc public static var isReadyForSPay: Swift.Bool {
     @objc get
   }
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithBankInvoiceId(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithPaymentAccounts(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithPaymentAccounts(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithoutRefresh(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func pay(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithPartPay(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithBankInvoiceId(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithoutRefresh(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func pay(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithPartPay(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithBinding(with viewController: UIKit.UIViewController, paymentRequest: SPaySdk.SBindingPaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
-  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Используйте новый метод pay")
   @objc public static func payWithBonuses(paymentRequest: SPaySdk.SBankInvoicePaymentRequest, completion: @escaping (_ state: SPaySdk.SPayState, _ info: Swift.String, _ localSessionId: Swift.String?) -> Swift.Void)
-  #endif
   @objc public static func getAuthURL(_ url: Foundation.URL)
   @objc public static func setBankScheme(_ url: Foundation.URL) throws
   @objc public static func logout()
@@ -201,33 +164,25 @@ public enum SPayMethod : Swift.Comparable {
   case withBinding
   case withPhoneNumber
   case bindingPayment
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
   }
 }
 @objc final public class SPaymentRequest : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(apiKey: Swift.String, bankInvoiceId: Swift.String, orderNumber: Swift.String, merchantLogin: Swift.String, redirectUri: Swift.String, phoneNumber: Swift.String? = nil)
-  #endif
   @objc deinit
 }
 @objc(SPaymentRequestObjc) final public class SPaymentRequestObjc : ObjectiveC.NSObject {
-  #if compiler(>=5.3) && $NonescapableTypes
   @objc public init(apiKey: Swift.String, bankInvoiceId: Swift.String, orderNumber: Swift.String, merchantLogin: Swift.String, redirectUri: Swift.String, bindingId: Swift.String? = nil, paymentTool: SPaySdk.SPaymentTool = .cards)
-  #endif
   @objc deinit
 }
 @objc(SPaymentToolObjc) public enum SPaymentTool : Swift.Int, Swift.Comparable {
   case cards
   case paymentAccounts
   public static func < (lhs: SPaySdk.SPaymentTool, rhs: SPaySdk.SPaymentTool) -> Swift.Bool
-  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.Int)
-  #endif
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {
     get
@@ -252,13 +207,11 @@ extension UIKit.UITableView {
   @_Concurrency.MainActor @preconcurrency public func dequeueResuableCell<T>(forIndexPath indexPath: Foundation.IndexPath) -> T where T : UIKit.UITableViewCell
   @_Concurrency.MainActor @preconcurrency public func dequeueReusableHeaderFooterView<T>() -> T where T : UIKit.UITableViewHeaderFooterView
 }
-#if compiler(>=5.3) && $NonescapableTypes
 extension Swift.Optional {
   public var isNil: Swift.Bool {
     get
   }
 }
-#endif
 extension SPaySdk.NetworkState : Swift.Equatable {}
 extension SPaySdk.NetworkState : Swift.Hashable {}
 extension SPaySdk.NetworkState : Swift.RawRepresentable {}

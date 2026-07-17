@@ -7,5 +7,4 @@ framework module SPaySdk {
 
 module SPaySdk.Swift {
   header "SPaySdk-Swift.h"
-  requires objc
 }
