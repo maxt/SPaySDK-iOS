@@ -10926,14 +10926,14 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 2646,
+      "offset": 2673,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/AnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 898,
+      "offset": 1326,
       "length": 5,
       "value": "false"
     },
@@ -11234,28 +11234,28 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "StringLiteral",
-      "offset": 1712,
+      "offset": 1704,
       "length": 107,
       "value": "\"🛠 Метод авторизации изменился на \""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "StringLiteral",
-      "offset": 1818,
+      "offset": 1810,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1919,
+      "offset": 1911,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1957,
+      "offset": 1949,
       "length": 5,
       "value": "false"
     },
@@ -11682,105 +11682,105 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 548,
-      "length": 13,
-      "value": "\"orderNumber\""
+      "offset": 544,
+      "length": 9,
+      "value": "\"orderID\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 585,
       "length": 14,
       "value": "\"x-b3-traceid\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 630,
       "length": 13,
       "value": "\"x-b3-spanid\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 680,
+      "offset": 672,
       "length": 18,
       "value": "\"X-Net-Add-Source\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 734,
+      "offset": 726,
       "length": 15,
       "value": "\"merchantLogin\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 782,
+      "offset": 774,
       "length": 12,
       "value": "\"sdkVersion\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 824,
+      "offset": 816,
       "length": 9,
       "value": "\"appName\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 864,
+      "offset": 856,
       "length": 13,
       "value": "\"X-System-Id\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 922,
+      "offset": 914,
       "length": 16,
       "value": "\"localSessionId\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 967,
+      "offset": 959,
       "length": 8,
       "value": "\"userId\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 1024,
+      "offset": 1016,
       "length": 10,
       "value": "\"X-SP-D-M\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1042,
       "length": 14,
       "value": "\"X-Geo-Sticky\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 1088,
+      "offset": 1080,
       "length": 20,
       "value": "\"X-Sdk-Refresh-Data\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "StringLiteral",
-      "offset": 1123,
+      "offset": 1115,
       "length": 14,
       "value": "\"X-Sdk-Id-Key\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/BaseRequestManager\/BaseRequestManager.swift",
       "kind": "Dictionary",
-      "offset": 2592,
+      "offset": 2584,
       "length": 3,
       "value": "[]"
     },
@@ -12614,20 +12614,20 @@
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "StringLiteral",
       "offset": 284,
-      "length": 2,
-      "value": "\"\""
+      "length": 102,
+      "value": "\"aHR0cHM6Ly9leHQuY2xpY2tzdHJlYW0uc2JlcmJhbmsucnUvbWV0cmljcy9lY29zeXN0ZW0vc2RrLXNiZXItcGF5LWluLWFwcA==\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 308,
-      "length": 66,
-      "value": "\"d12d860723095964741a09ba379620db1ac48784f35133ff6ca5db714311d250\""
+      "offset": 424,
+      "length": 90,
+      "value": "\"YTBkNDJkYjUxYjI3NGIyMDUxMTYzMTEwMWMzZTBiODM4MzYwY2VhMzE4MjU4ZDFmOGExOTJiMTRhOWQ5NWE1Yg==\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 667,
+      "offset": 823,
       "length": 5,
       "value": "false"
     },
@@ -13081,8 +13081,22 @@
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 102,
+      "value": "\"aHR0cHM6Ly9ub2RlNS52aXRvLnNiZXIucnU6NDQzL21iZWFjb24vZDNjMTM3Y2UtMjE2Yy00MDkwLWJhOTgtOWJlNDRlNWU5NDNk\""
+    },
+    {
+      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 50,
+      "value": "\"ODVhZTQ2NzgtNDJiZS00NjJjLTlkOTktOWFiZDg2NTQ1OTQw\""
+    },
+    {
+      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 277,
+      "offset": 536,
       "length": 5,
       "value": "false"
     },
@@ -19844,21 +19858,21 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/WebAuthVC\/WebAuthVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 766,
+      "offset": 807,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/WebAuthVC\/WebAuthVC.swift",
       "kind": "BooleanLiteral",
-      "offset": 801,
+      "offset": 842,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/WebAuthVC\/WebAuthVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 840,
+      "offset": 881,
       "length": 2,
       "value": "20"
     },
