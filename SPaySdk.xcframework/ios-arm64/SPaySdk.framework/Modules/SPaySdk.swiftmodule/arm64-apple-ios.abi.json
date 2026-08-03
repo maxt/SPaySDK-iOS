@@ -10926,7 +10926,7 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/AnalyticsManager.swift",
       "kind": "Dictionary",
-      "offset": 2673,
+      "offset": 2250,
       "length": 3,
       "value": "[]"
     },
@@ -11276,21 +11276,21 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 18912,
+      "offset": 17535,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 24844,
+      "offset": 23467,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "Dictionary",
-      "offset": 36737,
+      "offset": 35360,
       "length": 3,
       "value": "[]"
     },
@@ -11794,35 +11794,35 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "Dictionary",
-      "offset": 7359,
+      "offset": 7258,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "StringLiteral",
-      "offset": 7945,
+      "offset": 7844,
       "length": 15,
       "value": "\"not_available\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "StringLiteral",
-      "offset": 7984,
+      "offset": 7883,
       "length": 14,
       "value": "\"card_blocked\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "Dictionary",
-      "offset": 8639,
+      "offset": 8538,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "Dictionary",
-      "offset": 9434,
+      "offset": 9333,
       "length": 3,
       "value": "[]"
     },
@@ -13082,21 +13082,28 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 236,
+      "offset": 533,
       "length": 102,
       "value": "\"aHR0cHM6Ly9ub2RlNS52aXRvLnNiZXIucnU6NDQzL21iZWFjb24vZDNjMTM3Y2UtMjE2Yy00MDkwLWJhOTgtOWJlNDRlNWU5NDNk\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 372,
+      "offset": 669,
       "length": 50,
       "value": "\"ODVhZTQ2NzgtNDJiZS00NjJjLTlkOTktOWFiZDg2NTQ1OTQw\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 536,
+      "offset": 864,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 899,
       "length": 5,
       "value": "false"
     },
@@ -14711,6 +14718,13 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/LoggableVC\/LoggableVC.swift",
+      "kind": "BooleanLiteral",
+      "offset": 255,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
       "offset": 144,
@@ -14762,105 +14776,105 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1060,
+      "offset": 1090,
       "length": 6,
       "value": "\"Auth\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1116,
       "length": 9,
       "value": "\"Network\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1117,
+      "offset": 1147,
       "length": 11,
       "value": "\"LifeCycle\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1150,
+      "offset": 1180,
       "length": 11,
       "value": "\"Analytics\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1181,
+      "offset": 1211,
       "length": 9,
       "value": "\"Storage\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1243,
       "length": 12,
       "value": "\"SourceCode\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1250,
+      "offset": 1280,
       "length": 9,
       "value": "\"Default\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1319,
+      "offset": 1349,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1349,
+      "offset": 1379,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "BooleanLiteral",
-      "offset": 1384,
+      "offset": 1414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1495,
+      "offset": 1525,
       "length": 73,
       "value": "\"SDKv\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1520,
+      "offset": 1550,
       "length": 1,
       "value": "\"(\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1539,
+      "offset": 1569,
       "length": 1,
       "value": "\") \""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1593,
       "length": 1,
       "value": "\".txt\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/Logger\/Logger.swift",
       "kind": "StringLiteral",
-      "offset": 15963,
+      "offset": 15993,
       "length": 12,
       "value": "\"Custom log\""
     },
