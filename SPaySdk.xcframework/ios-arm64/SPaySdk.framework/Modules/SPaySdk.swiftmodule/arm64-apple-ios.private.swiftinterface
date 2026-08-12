@@ -143,6 +143,24 @@ extension SPaySdk.SPay {
   @objc override dynamic public init()
   @objc deinit
 }
+public protocol SPayAnalyticsProvider : AnyObject {
+  var toggleName: Swift.String { get }
+  var userId: Swift.String { get set }
+  func sendEvent(_ event: Swift.String)
+  func sendEvent(_ event: Swift.String, with string: Swift.String)
+  func sendEvent(_ event: Swift.String, with dictionary: [Swift.String : Swift.String])
+  func sendError(_ event: Swift.String, error: any Swift.Error, with context: [Swift.String : Any]?)
+  func config()
+  func startSession()
+  func finishSession()
+  func applyRemoteConfig(_ config: [Swift.String : Swift.String])
+}
+extension SPaySdk.SPayAnalyticsProvider {
+  public func applyRemoteConfig(_ config: [Swift.String : Swift.String])
+}
+extension SPaySdk.SPay {
+  public static func registerAnalyticsProvider(_ provider: any SPaySdk.SPayAnalyticsProvider)
+}
 public enum SPayMethod : Swift.Comparable {
   case `default`
   case withBankInvoiceId

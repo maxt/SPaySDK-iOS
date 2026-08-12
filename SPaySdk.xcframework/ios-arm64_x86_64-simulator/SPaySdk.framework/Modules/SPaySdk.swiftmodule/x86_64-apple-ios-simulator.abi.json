@@ -1289,6 +1289,16 @@
       },
       {
         "kind": "Import",
+        "name": "ClickstreamAnalytics",
+        "printedName": "ClickstreamAnalytics",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6834,6 +6844,35 @@
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registerAnalyticsProvider",
+            "printedName": "registerAnalyticsProvider(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SPayAnalyticsProvider",
+                "printedName": "any SPaySdk.SPayAnalyticsProvider",
+                "usr": "s:7SPaySdk0A17AnalyticsProviderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A0C25registerAnalyticsProvideryyAA0adE0_pFZ",
+            "mangledName": "$s7SPaySdk0A0C25registerAnalyticsProvideryyAA0adE0_pFZ",
+            "moduleName": "SPaySdk",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",
@@ -6913,6 +6952,483 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SPayAnalyticsProvider",
+        "printedName": "SPayAnalyticsProvider",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "toggleName",
+            "printedName": "toggleName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP10toggleNameSSvp",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP10toggleNameSSvp",
+            "moduleName": "SPaySdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SPaySdk0A17AnalyticsProviderP10toggleNameSSvg",
+                "mangledName": "$s7SPaySdk0A17AnalyticsProviderP10toggleNameSSvg",
+                "moduleName": "SPaySdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+                "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP6userIdSSvp",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP6userIdSSvp",
+            "moduleName": "SPaySdk",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SPaySdk0A17AnalyticsProviderP6userIdSSvg",
+                "mangledName": "$s7SPaySdk0A17AnalyticsProviderP6userIdSSvg",
+                "moduleName": "SPaySdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+                "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SPaySdk0A17AnalyticsProviderP6userIdSSvs",
+                "mangledName": "$s7SPaySdk0A17AnalyticsProviderP6userIdSSvs",
+                "moduleName": "SPaySdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+                "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7SPaySdk0A17AnalyticsProviderP6userIdSSvM",
+                "mangledName": "$s7SPaySdk0A17AnalyticsProviderP6userIdSSvM",
+                "moduleName": "SPaySdk",
+                "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+                "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP9sendEventyySSF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP9sendEventyySSF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP9sendEvent_4withySS_SStF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP9sendEvent_4withySS_SStF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEvent",
+            "printedName": "sendEvent(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP9sendEvent_4withySS_SDyS2SGtF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP9sendEvent_4withySS_SDyS2SGtF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendError",
+            "printedName": "sendError(_:error:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP9sendError_5error4withySS_s0F0_pSDySSypGSgtF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP9sendError_5error4withySS_s0F0_pSDySSypGSgtF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "config",
+            "printedName": "config()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP6configyyF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP6configyyF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startSession",
+            "printedName": "startSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP12startSessionyyF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP12startSessionyyF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "finishSession",
+            "printedName": "finishSession()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP13finishSessionyyF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP13finishSessionyyF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyRemoteConfig",
+            "printedName": "applyRemoteConfig(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderP17applyRemoteConfigyySDyS2SGF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderP17applyRemoteConfigyySDyS2SGF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "applyRemoteConfig",
+            "printedName": "applyRemoteConfig(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7SPaySdk0A17AnalyticsProviderPAAE17applyRemoteConfigyySDyS2SGF",
+            "mangledName": "$s7SPaySdk0A17AnalyticsProviderPAAE17applyRemoteConfigyySDyS2SGF",
+            "moduleName": "SPaySdk",
+            "genericSig": "<τ_0_0 where τ_0_0 : SPaySdk.SPayAnalyticsProvider>",
+            "sugared_genericSig": "<Self where Self : SPaySdk.SPayAnalyticsProvider>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:7SPaySdk0A17AnalyticsProviderP",
+        "mangledName": "$s7SPaySdk0A17AnalyticsProviderP",
+        "moduleName": "SPaySdk",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
           }
         ]
       },
@@ -10800,42 +11316,42 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4143,
+      "offset": 4194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4264,
+      "offset": 4315,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4367,
+      "offset": 4418,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 27883,
+      "offset": 29142,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 27998,
+      "offset": 29257,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AlertService\/AlertService.swift",
       "kind": "BooleanLiteral",
-      "offset": 28095,
+      "offset": 29354,
       "length": 4,
       "value": "true"
     },
@@ -11276,21 +11792,21 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "StringLiteral",
-      "offset": 17535,
+      "offset": 17481,
       "length": 9,
       "value": "\"success\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 23467,
+      "offset": 23413,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/AuthVC\/AuthPresenter.swift",
       "kind": "Dictionary",
-      "offset": 35360,
+      "offset": 35306,
       "length": 3,
       "value": "[]"
     },
@@ -11570,14 +12086,14 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/BankAppRedirectVC\/BankAppRedirectPresenter.swift",
       "kind": "Array",
-      "offset": 621,
+      "offset": 693,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/BankAppRedirectVC\/BankAppRedirectPresenter.swift",
       "kind": "IntegerLiteral",
-      "offset": 652,
+      "offset": 724,
       "length": 1,
       "value": "0"
     },
@@ -11612,7 +12128,14 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/BankAppRedirectVC\/BankAppRedirectVC.swift",
       "kind": "IntegerLiteral",
-      "offset": 1317,
+      "offset": 790,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/BankAppRedirectVC\/BankAppRedirectVC.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1583,
       "length": 1,
       "value": "2"
     },
@@ -11794,35 +12317,35 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "Dictionary",
-      "offset": 7258,
+      "offset": 7293,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "StringLiteral",
-      "offset": 7844,
+      "offset": 7879,
       "length": 15,
       "value": "\"not_available\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "StringLiteral",
-      "offset": 7883,
+      "offset": 7918,
       "length": 14,
       "value": "\"card_blocked\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "Dictionary",
-      "offset": 8538,
+      "offset": 8573,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/BindingService\/BindingService.swift",
       "kind": "Dictionary",
-      "offset": 9333,
+      "offset": 9368,
       "length": 3,
       "value": "[]"
     },
@@ -12613,21 +13136,21 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 284,
+      "offset": 293,
       "length": 102,
       "value": "\"aHR0cHM6Ly9leHQuY2xpY2tzdHJlYW0uc2JlcmJhbmsucnUvbWV0cmljcy9lY29zeXN0ZW0vc2RrLXNiZXItcGF5LWluLWFwcA==\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 424,
+      "offset": 433,
       "length": 90,
       "value": "\"YTBkNDJkYjUxYjI3NGIyMDUxMTYzMTEwMWMzZTBiODM4MzYwY2VhMzE4MjU4ZDFmOGExOTJiMTRhOWQ5NWE1Yg==\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 823,
+      "offset": 832,
       "length": 5,
       "value": "false"
     },
@@ -13078,34 +13601,6 @@
       "offset": 737,
       "length": 1,
       "value": "3"
-    },
-    {
-      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 533,
-      "length": 102,
-      "value": "\"aHR0cHM6Ly9ub2RlNS52aXRvLnNiZXIucnU6NDQzL21iZWFjb24vZDNjMTM3Y2UtMjE2Yy00MDkwLWJhOTgtOWJlNDRlNWU5NDNk\""
-    },
-    {
-      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "StringLiteral",
-      "offset": 669,
-      "length": 50,
-      "value": "\"ODVhZTQ2NzgtNDJiZS00NjJjLTlkOTktOWFiZDg2NTQ1OTQw\""
-    },
-    {
-      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 864,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/DynatraceAnalyticsService\/DynatraceAnalyticsService.swift",
-      "kind": "BooleanLiteral",
-      "offset": 899,
-      "length": 5,
-      "value": "false"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AnalyticsManager\/EventBuilder.swift",
@@ -14139,49 +14634,49 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 626,
+      "offset": 308,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1008,
+      "offset": 863,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1046,
+      "offset": 901,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1085,
+      "offset": 940,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1149,
+      "offset": 1004,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1161,
+      "offset": 1016,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Design\/CustomViews\/HintBannerView\/HintBannerView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1216,
+      "offset": 1071,
       "length": 2,
       "value": "12"
     },
@@ -14434,20 +14929,20 @@
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/HostManager\/HostManager.swift",
       "kind": "StringLiteral",
       "offset": 1014,
-      "length": 17,
-      "value": "\"https:\/\/id-ift.\""
+      "length": 16,
+      "value": "\"https:\/\/id-sb.\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/HostManager\/HostManager.swift",
       "kind": "StringLiteral",
-      "offset": 1050,
+      "offset": 1049,
       "length": 17,
       "value": "\"https:\/\/id-psi.\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/HostManager\/HostManager.swift",
       "kind": "StringLiteral",
-      "offset": 1087,
+      "offset": 1086,
       "length": 13,
       "value": "\"https:\/\/id.\""
     },
@@ -16921,6 +17416,13 @@
       "offset": 708,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Public\/Analytics\/SPayAnalyticsProvider.swift",
+      "kind": "Array",
+      "offset": 741,
+      "length": 2,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Public\/NewPayment\/SPayMethod.swift",

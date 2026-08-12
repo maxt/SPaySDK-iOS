@@ -10,7 +10,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ItbDOkMJWTKS5rRBDMhr4Xs3nVk=
+		1UggM4WlA4HShv26F29qaQHVUfc=
 		</data>
 		<key>Auth.strings</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		6Q7kNAEZuMCPSljtivmDOKiKUWo=
+		Tv4ZCi5HtcpseKBHB1DrmggTkcg=
 		</data>
 		<key>LightSplash.json</key>
 		<data>
@@ -90,11 +90,11 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		cpFcUpwisQxdwV34qiO2diQ/EzQ=
+		UgFSG2XS5ZDy4vFJS+NhdQbX/bo=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bbzGUUntL2hehQZqrOTRJu7u2NU=
+		+ZpnNokbzbdCQ23kFQbXXoG18NI=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -102,19 +102,19 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bbzGUUntL2hehQZqrOTRJu7u2NU=
+		+ZpnNokbzbdCQ23kFQbXXoG18NI=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		aisLGswmai7R+X830j29BaR8qWI=
+		RlbFVw+Xwho1kXtEhs/gCzK7FUA=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		cpFcUpwisQxdwV34qiO2diQ/EzQ=
+		UgFSG2XS5ZDy4vFJS+NhdQbX/bo=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		4Psp7CHx1Qb+O4jDI2i488e71To=
+		QbFqr4whRo+FKnprXHAGMxrMZDE=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -122,11 +122,11 @@
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		4Psp7CHx1Qb+O4jDI2i488e71To=
+		QbFqr4whRo+FKnprXHAGMxrMZDE=
 		</data>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oPvxi0vq/KWaZkrGaGue1WA6Psw=
+		2CJWEIKiFucscxYia1I2IjKCG6s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -212,7 +212,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bc/ErYhbOgdoY077JdlUejp4WSWILVudSZP9Mw1H+94=
+			xV2fqmPu1aCA7vOfLb1HLWR9F2cIlMRfo3ibcPiP5IY=
 			</data>
 		</dict>
 		<key>Auth.strings</key>
@@ -345,14 +345,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			U69kza1+hr9P5j7U7anTSJN/4zwUVgobeAWUtGh4oBM=
+			DXvGYyVPKqJ4MelrrdHwvFc86ZIyHhfcnth3wHTyXfk=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ce2g5bAIV4MfHMpPFAmCOdsbU/et1JiFXmIZAL+K1wA=
+			InGWhE5TAW4HKfMiDSQvF2yVRlpZNWClK/8RB2nMaXo=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -366,28 +366,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ce2g5bAIV4MfHMpPFAmCOdsbU/et1JiFXmIZAL+K1wA=
+			InGWhE5TAW4HKfMiDSQvF2yVRlpZNWClK/8RB2nMaXo=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/AhFPrvpt1IicEPavhDEngDma8XMvuyVJaTw37YWles=
+			BK0rjZpf2lzThR7hL+BmkvcH0ORsiH88ov60eEySvBQ=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U69kza1+hr9P5j7U7anTSJN/4zwUVgobeAWUtGh4oBM=
+			DXvGYyVPKqJ4MelrrdHwvFc86ZIyHhfcnth3wHTyXfk=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wnfk9alHtvL228vw2se4t9dYmY2UwDV88hOJeH5urEs=
+			N/yFIbzfHD/FdFVqAyrfcX6m/Lb4Fvph6nbHaJrj7bU=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -401,14 +401,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wnfk9alHtvL228vw2se4t9dYmY2UwDV88hOJeH5urEs=
+			N/yFIbzfHD/FdFVqAyrfcX6m/Lb4Fvph6nbHaJrj7bU=
 			</data>
 		</dict>
 		<key>Modules/SPaySdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IEMVWsMUNwUS6mLFEDzSeFxXouAFv5pTwXfJeZFCOfw=
+			Enml08XYLaLiBfn3v4FNth8x/jx4Kqmdsi2rCFj/ej4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
