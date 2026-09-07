@@ -1101,6 +1101,13 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "SPaySdk"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1285,16 +1292,6 @@
         "moduleName": "SPaySdk",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "ClickstreamAnalytics",
-        "printedName": "ClickstreamAnalytics",
-        "declKind": "Import",
-        "moduleName": "SPaySdk",
-        "declAttributes": [
-          "AccessControl"
         ]
       },
       {
@@ -11750,28 +11747,28 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "StringLiteral",
-      "offset": 1704,
+      "offset": 1736,
       "length": 107,
       "value": "\"🛠 Метод авторизации изменился на \""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "StringLiteral",
-      "offset": 1810,
+      "offset": 1842,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1911,
+      "offset": 1943,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/AuthManager\/AuthManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1949,
+      "offset": 1981,
       "length": 5,
       "value": "false"
     },
@@ -12814,14 +12811,14 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardsPresenter.swift",
       "kind": "Array",
-      "offset": 2300,
+      "offset": 2419,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Presentation\/CardsVC\/CardsPresenter.swift",
       "kind": "Array",
-      "offset": 2352,
+      "offset": 2471,
       "length": 2,
       "value": "[]"
     },
@@ -14929,20 +14926,20 @@
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/HostManager\/HostManager.swift",
       "kind": "StringLiteral",
       "offset": 1014,
-      "length": 16,
-      "value": "\"https:\/\/id-sb.\""
+      "length": 17,
+      "value": "\"https:\/\/id-ift.\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/HostManager\/HostManager.swift",
       "kind": "StringLiteral",
-      "offset": 1049,
+      "offset": 1050,
       "length": 17,
       "value": "\"https:\/\/id-psi.\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Managers\/HostManager\/HostManager.swift",
       "kind": "StringLiteral",
-      "offset": 1086,
+      "offset": 1087,
       "length": 13,
       "value": "\"https:\/\/id.\""
     },
