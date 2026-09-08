@@ -1296,6 +1296,16 @@
       },
       {
         "kind": "Import",
+        "name": "ClickstreamAnalytics",
+        "printedName": "ClickstreamAnalytics",
+        "declKind": "Import",
+        "moduleName": "SPaySdk",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -13133,21 +13143,21 @@
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 293,
+      "offset": 296,
       "length": 102,
       "value": "\"aHR0cHM6Ly9leHQuY2xpY2tzdHJlYW0uc2JlcmJhbmsucnUvbWV0cmljcy9lY29zeXN0ZW0vc2RrLXNiZXItcGF5LWluLWFwcA==\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "StringLiteral",
-      "offset": 433,
+      "offset": 439,
       "length": 90,
       "value": "\"YTBkNDJkYjUxYjI3NGIyMDUxMTYzMTEwMWMzZTBiODM4MzYwY2VhMzE4MjU4ZDFmOGExOTJiMTRhOWQ5NWE1Yg==\""
     },
     {
       "filePath": "\/Users\/sergejgladkij\/GitVerse\/paySDK-ios\/SPaySdk\/Services\/AnalyticsService\/ClickstreamAnalyticsService\/ClickstreamAnalyticsService.swift",
       "kind": "BooleanLiteral",
-      "offset": 832,
+      "offset": 856,
       "length": 5,
       "value": "false"
     },
